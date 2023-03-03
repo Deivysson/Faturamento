@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora de Faturamento</title>
+
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f0f0f0;
+		}
+		h1 {
+			text-align: center;
+			color: #333;
+		}
+		table {
+			margin: 20px auto;
+			border-collapse: collapse;
+			background-color: #fff;
+			box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+		}
+		th, td {
+			padding: 10px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+		}
+		th {
+			background-color: #f2f2f2;
+		}
+		#calcular-btn {
+			display: block;
+			margin: 20px auto;
+			padding: 10px;
+			font-size: 18px;
+			border-radius: 5px;
+			border: none;
+			background-color: #0099ff;
+			color: #fff;
+			cursor: pointer;
+			transition: all 0.3s ease;
+		}
+		#calcular-btn:hover {
+			background-color: #0077cc;
+		}
+	</style>
+
+</head>
+
+<body>
+	<h1>Calculadora de Faturamento</h1>
+	<button id="calcular-btn">Calcular</button>
+	<table>
+		<tr>
+			<th>Menor faturamento</th>
+			<td id="menor-faturamento"></td>
+		</tr>
+		<tr>
+			<th>Maior faturamento</th>
+			<td id="maior-faturamento"></td>
+		</tr>
+		<tr>
+			<th>Dias com faturamento acima da média</th>
+			<td id="dias-acima-media"></td>
+		</tr>
+	</table>
+	<script src="calcular.js">
+
+	
+	</script>
+</body>
+</html>
